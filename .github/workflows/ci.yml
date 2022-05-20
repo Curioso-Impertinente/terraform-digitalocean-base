@@ -1,0 +1,15 @@
+name: Continuous Integration
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  call-workflow-ci:
+    uses:
+      Curioso-Impertinente/workflows-terraform-modules/.github/workflows/ci.yml@0.1.0
+
