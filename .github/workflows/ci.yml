@@ -11,5 +11,4 @@ on:
 jobs:
   call-workflow-ci:
     uses:
-      Curioso-Impertinente/workflows-terraform-modules/.github/workflows/ci.yml@0.1.0
-
+      Curioso-Impertinente/workflows-terraform-modules/.github/workflows/ci.yml@0.2.0
